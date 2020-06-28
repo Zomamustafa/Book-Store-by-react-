@@ -43,7 +43,7 @@ const App = () => {
 //COMPONENT1
 const NavBar = () => {
     return (
-        <div  >
+        <div>
             <h2 style={mystyle}>Home</h2>
 
         </div>
@@ -52,27 +52,11 @@ const NavBar = () => {
 //component 2
 
 const MenuBar = () => {
-    const firststyle = {
-        color: "blue",
-        backgroundColor: "lightblue",
-        textAlign: "center",
-        fontFamily: "Roman",
-        textTransform: "uppercase",
-        height: "285px",
-        padding: "35px",
-        position: "relative",
-        top: "-24px",
-        font: "Bold",
-        fontSize: "60px",
-        
-
-
-    };
-
+   
     
     return (
-        <div >
-            <h2 style={firststyle}>Smart House Book Store</h2>
+        <div className="menubar" >
+            <p>Smart House Book Store</p>
     
         
 
@@ -89,7 +73,8 @@ const Para= ()=>{
         fontFamily:"Arial ",
         fontSize : "25px",
         position :"relative",
-        top:"-200px",
+        top:"-180px",
+        
         
         
     };
@@ -101,7 +86,7 @@ const Para= ()=>{
         fontSize: "25px",
         position: "relative",
         left: "45%",
-        top: "-180px",
+        top: "-178px",
         display: "block",
         borderRadius: "10px",
         cursor:"pointer"
@@ -111,7 +96,7 @@ const Para= ()=>{
 
 
     return(
-        <div>
+        <div className="para">
             <h3 style={secondStyle}>Bring your mind here!!!!</h3>
             <button style  ={buttonstyle}>Shop Now</button>
             

@@ -3,6 +3,10 @@
    float: left;
    width: 30%;
     overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
 }
 .gallery{
     margin: 10px;
@@ -16,8 +20,8 @@
     width: 50%;
     height: auto;
     display: block;
-  margin-left: auto;
-  margin-right: auto
+    margin-left: auto;
+    margin-right: auto
 }
 
 .desc{
@@ -25,6 +29,37 @@
     padding: 15px;
     text-align: center;
     
+    
+}
+
+.menubar{
+        
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    color: blue;
+    background-color: lightblue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    height: 330px;
+    padding: 35px;
+    position: relative;
+    top: -24px;
+    font: bold;
+    font-size: 40px;
+
+
+}
+
+
+.para{
+        justify-content: center;
+        align-items: flex-start;
+        align-content: space-between;
+        
+        
     
 }
 
